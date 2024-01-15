@@ -1,0 +1,178 @@
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="Sindhi Tipno 2024">
+  <title lang="en-us">Sindhi Tipno 2024</title>
+  <link rel="stylesheet" href="OneUI/oui.min.css">
+  <link rel="stylesheet" href="materialize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/ST.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Sindhi Tipno">
+  <meta name="apple-mobile-web-app-title" content="Sindhi Tipno">
+  <meta name="theme-color" content="#1e88e5">
+  <meta name="msapplication-navbutton-color" content="#1e88e5">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="index.html">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/picture3.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="images/picture3.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/picture4.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="48x48" href="images/picture4.png">
+  <link rel="icon" type="image/png" sizes="60x60" href="images/picture5.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="images/picture5.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="images/picture6.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="128x128" href="images/picture6.png">
+  <link rel="icon" type="image/png" sizes="144x144" href="images/picture7.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="images/picture7.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="images/picture2.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="256x256" href="images/picture2.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/picture1.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="images/picture1.png">
+  <style>
+    html,
+    .modal {
+      scroll-behavior: smooth;
+    }
+
+    @font-face {
+      font-family: 'SamsungOne 400';
+      src: local('SamsungOne 400'), url('SamsungOne-400.woff') format('woff');
+    }
+
+    * {
+      font-family: 'SamsungOne 400';
+      font-size: larger;
+    }
+
+    .oui-button {
+      font-family: 'SamsungOne 400';
+    }
+
+    .dropdown-content {
+      border-radius: 15px;
+    }
+
+    #font {
+      font-size: medium;
+    }
+
+    #curr {
+      text-decoration: underline dotted;
+      text-underline-position: under;
+      text-decoration-thickness: 1.5px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="materialize.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.fixed-action-btn').openFAB();
+      $('.fixed-action-btn').closeFAB();
+      $('.fixed-action-btn.toolbar').openToolbar();
+      $('.fixed-action-btn.toolbar').closeToolbar();
+      $('.tooltipped').tooltip({
+        delay: 50
+      });
+    })
+    $(document).ready(function () {
+      $('.modal').modal();
+      $('#modal').modal();
+    })
+    $(document).bind("contextmenu", function (e) {
+      return false;
+    });
+  </script>
+</head>
+
+<body onload="location.href='index.html#view'">
+  <main>
+    <div id="main">
+      <div class="oui-viewing center-align">
+        <h4 class="black-text">Sindhi Tipno 2024</h4>
+      </div>
+      <div id="view"></div><br>
+      <div class="row">
+        <div style="font-size: large;">
+          <a href="#!" class="dropdown-button col s4 m3 l2 black-text" data-belowOrigin="true" data-gutter="10"
+            data-constrainWidth="true" data-activates="dd1">&#9776;</a>
+          <ul id="dd1" class="dropdown-content">
+            <li><a href="#!" class="blue-text text-accent-2"><i class="fa-solid fa-home"></i>
+                <span id="curr">Home</span></a></li>
+            <li class="divider"></li>
+            <li><a href="#about" class="black-text modal-trigger"><i class="fa-solid fa-circle-info"></i>
+                About (v2024.1.0)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="oui-interaction center-align">
+        <!--Interaction area-->
+        <div class="oui-bubble">
+          <h1 class="hide"></h1>
+        </div>
+      </div>
+      <br>
+      <div class="modal black-text center-align" id="about">
+        <div class="modal-content">
+          <img src="images/GK Logo New 2020 whitebg.png" class="responsive-img" alt="GK" width="20%" height="20%"
+            id="image">
+          <h5>Website Developed by <br>Gaurav Khatri</h5>
+          <h4><b>What's New</b></h4>
+          <hr style="border: dashed 0.5px black;">
+          <table class="bordered">
+            <thead>
+              <tr id="new">
+                <th><b>Version</b></th>
+                <th><b>Release Notes</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2023.1.0</td>
+                <td>Initial Release.</td>
+              </tr>
+            </tbody>
+          </table><br>
+        </div>
+        <p class="grey-text text-darken-1">&copy; 2024, All Rights reserved.</p>
+        <script>
+          const scriptURL =
+            'https://script.google.com/macros/s/AKfycbyNWNXyIv0Cx8sMALZMW3RRSjY1Wis-NWevN0gzqnNJL2Bs07CFQqYPaJc_MFEtuulx/exec'
+          const form = document.forms['google-sheet']
+
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+              })
+              .then(response => alert(
+                "Thanks for your valuable Feedback..! Stay tuned for further updates"
+              ))
+              .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+      </div>
+    </div>
+  </main>
+  <script>
+    if ('serviceWorker' in navigator) {
+      // Register service worker
+      navigator.serviceWorker.register('sw.js', {
+        scope: '.'
+      });
+    };
+  </script>
+</body>
+
+</html>
